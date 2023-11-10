@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T19:07:09.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="TwrHXNhBhmErWQg5gIQE" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-10T21:23:49.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="QkpsqjmvmYgPIlsEBlkE" version="22.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1178" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,13 +65,34 @@
           <mxGeometry x="175" y="210" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I_E26UzWS_VHLFwQ0atA-28" value="udp_input" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="300" y="480" width="90" height="40" as="geometry" />
+          <mxGeometry x="470" y="440" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6cJ1kf8lucf0hTfPH2V-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="I_E26UzWS_VHLFwQ0atA-29" target="Y6cJ1kf8lucf0hTfPH2V-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I_E26UzWS_VHLFwQ0atA-29" value="tcp_input" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="300" y="530" width="90" height="40" as="geometry" />
+          <mxGeometry x="470" y="490" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I_E26UzWS_VHLFwQ0atA-31" value="icmp_input" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="300" y="585" width="90" height="40" as="geometry" />
+          <mxGeometry x="470" y="545" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6cJ1kf8lucf0hTfPH2V-0" value="tcp_recv_callback" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="304" y="495" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6cJ1kf8lucf0hTfPH2V-2" value="tcp_write" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="304" y="540" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6cJ1kf8lucf0hTfPH2V-3" value="ip4_output_if" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="289" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6cJ1kf8lucf0hTfPH2V-5" value="netif-&amp;gt;output&lt;br&gt;etharp_output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="289" y="680" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6cJ1kf8lucf0hTfPH2V-6" value="ethernet_output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6cJ1kf8lucf0hTfPH2V-7" value="netif-&amp;gt;linkoutput&lt;br&gt;pcapif_low_level_output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="271" y="850" width="176" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
