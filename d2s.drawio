@@ -1,9 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-12-24T19:23:09.669Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="1FmBbPfWctZ_RlhsYqtL" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-24T19:32:43.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="YUPrxn-S9lsgeA9j4ioX" version="22.1.11" type="github">
   <diagram name="第 1 页" id="jFM_bRkAo_Z9jXmtW7PE">
     <mxGraphModel dx="1216" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L1I-3VNPEpjBzNcU_K1i-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1I-3VNPEpjBzNcU_K1i-1" target="L1I-3VNPEpjBzNcU_K1i-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1I-3VNPEpjBzNcU_K1i-20" value="注入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="L1I-3VNPEpjBzNcU_K1i-19">
+          <mxGeometry x="-0.175" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="L1I-3VNPEpjBzNcU_K1i-1" value="WinDivert" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="50" y="140" width="120" height="60" as="geometry" />
         </mxCell>
@@ -34,6 +42,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="L1I-3VNPEpjBzNcU_K1i-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1I-3VNPEpjBzNcU_K1i-3" target="L1I-3VNPEpjBzNcU_K1i-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="L1I-3VNPEpjBzNcU_K1i-3" value="socks5 client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="630" y="140" width="120" height="60" as="geometry" />
         </mxCell>
@@ -47,6 +58,23 @@
           <mxGeometry y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="L1I-3VNPEpjBzNcU_K1i-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1I-3VNPEpjBzNcU_K1i-13" target="L1I-3VNPEpjBzNcU_K1i-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1I-3VNPEpjBzNcU_K1i-13" value="socks5代理服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1I-3VNPEpjBzNcU_K1i-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1I-3VNPEpjBzNcU_K1i-16" target="L1I-3VNPEpjBzNcU_K1i-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1I-3VNPEpjBzNcU_K1i-18" value="拦截" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="L1I-3VNPEpjBzNcU_K1i-17">
+          <mxGeometry x="0.25" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1I-3VNPEpjBzNcU_K1i-16" value="WFP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
