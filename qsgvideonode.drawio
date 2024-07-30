@@ -4,91 +4,94 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-1" value="QSGVideoNode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-1" value="QSGVideoNode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="-614" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-2" value="QSGVideoMaterial" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-2" value="QSGVideoMaterial" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qt5C2lJePND-xmZlz8fH-1" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Qt5C2lJePND-xmZlz8fH-1" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qt5C2lJePND-xmZlz8fH-1" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-5" value="QSGVideoMaterial" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="224" y="-614" width="506" height="86" as="geometry">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-5" value="QSGVideoMaterial" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="224" y="-614" width="506" height="94" as="geometry">
             <mxRectangle x="400" y="120" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-5">
-          <mxGeometry y="26" width="506" height="26" as="geometry" />
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-6" value="&lt;div&gt;std::array&amp;lt;QSGVideoTexture, 3&amp;gt; m_textures;&lt;/div&gt;&lt;div&gt;std::unique_ptr&amp;lt;QVideoFrameTextures&amp;gt; m_videoFrameTextures;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qt5C2lJePND-xmZlz8fH-5" vertex="1">
+          <mxGeometry y="26" width="506" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-5">
-          <mxGeometry y="52" width="506" height="8" as="geometry" />
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Qt5C2lJePND-xmZlz8fH-5" vertex="1">
+          <mxGeometry y="60" width="506" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-8" value="QSGMaterialType *type() const override" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-5">
-          <mxGeometry y="60" width="506" height="26" as="geometry" />
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-8" value="QSGMaterialType *type() const override" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qt5C2lJePND-xmZlz8fH-5" vertex="1">
+          <mxGeometry y="68" width="506" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qt5C2lJePND-xmZlz8fH-9" target="Qt5C2lJePND-xmZlz8fH-5">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qt5C2lJePND-xmZlz8fH-9" target="Qt5C2lJePND-xmZlz8fH-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-9" value="QSGMaterial" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-9" value="QSGMaterial" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="-780" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-10" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-9">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-10" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qt5C2lJePND-xmZlz8fH-9" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-9">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Qt5C2lJePND-xmZlz8fH-9" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-9">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qt5C2lJePND-xmZlz8fH-9" vertex="1">
           <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-16" value="QSGVideoMaterialRhiShader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-16" value="QSGVideoMaterialRhiShader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="224" y="-294" width="350" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-17" value="updateUniformData" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-16">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-17" value="updateUniformData" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qt5C2lJePND-xmZlz8fH-16" vertex="1">
           <mxGeometry y="26" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-16">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Qt5C2lJePND-xmZlz8fH-16" vertex="1">
           <mxGeometry y="52" width="350" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-19" value="updateSampledImage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qt5C2lJePND-xmZlz8fH-16">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-19" value="updateSampledImage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qt5C2lJePND-xmZlz8fH-16" vertex="1">
           <mxGeometry y="60" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qt5C2lJePND-xmZlz8fH-20" target="Qt5C2lJePND-xmZlz8fH-16">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Qt5C2lJePND-xmZlz8fH-20" target="Qt5C2lJePND-xmZlz8fH-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-20" value="QSGMaterialShader" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-20" value="QSGMaterialShader" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="344" y="-370" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qt5C2lJePND-xmZlz8fH-15" target="Qt5C2lJePND-xmZlz8fH-16">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Qt5C2lJePND-xmZlz8fH-15" target="Qt5C2lJePND-xmZlz8fH-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-15" value="QSGMaterialShader *createShader(QSGRendererInterface::RenderMode) const override" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="224" y="-528" width="506" height="28" as="geometry" />
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-15" value="QSGMaterialShader *createShader(QSGRendererInterface::RenderMode) const override" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="224" y="-520" width="506" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-26" value="updateTextures" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="224" y="-500" width="506" height="30" as="geometry" />
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-26" value="updateTextures" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="224" y="-492" width="506" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qt5C2lJePND-xmZlz8fH-17" target="Qt5C2lJePND-xmZlz8fH-26">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Qt5C2lJePND-xmZlz8fH-17" target="Qt5C2lJePND-xmZlz8fH-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qt5C2lJePND-xmZlz8fH-29" target="Qt5C2lJePND-xmZlz8fH-30">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qt5C2lJePND-xmZlz8fH-29" target="Qt5C2lJePND-xmZlz8fH-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-29" value="createTextures" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="-125" width="110" height="30" as="geometry" />
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-29" value="createTextures&lt;div&gt;将qvideoframe中的本地纹理转换为rhi纹理&lt;/div&gt;&lt;div&gt;再用rhi纹理构建QSGVideoTexture&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-155" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qt5C2lJePND-xmZlz8fH-30" target="Qt5C2lJePND-xmZlz8fH-31">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qt5C2lJePND-xmZlz8fH-30" target="Qt5C2lJePND-xmZlz8fH-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-30" value="createTexturesFromHandles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-30" value="createTexturesFromHandles" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="-125" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-31" value="createTextureFromHandle&lt;div&gt;从qvideframe的videobuffer中拿到d3d纹理句柄并通过此句柄构建一个rhi纹理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-31" value="createTextureFromHandle&lt;div&gt;从qvideframe的videobuffer中拿到d3d纹理句柄并通过此句柄构建一个rhi纹理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="504" y="-180" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;QVideoFrameTextures&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;保存N个rhi纹理&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="224" y="-690" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
