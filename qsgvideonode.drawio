@@ -87,11 +87,17 @@
         <mxCell id="Qt5C2lJePND-xmZlz8fH-30" value="createTexturesFromHandles" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="-125" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qt5C2lJePND-xmZlz8fH-31" value="createTextureFromHandle&lt;div&gt;从qvideframe的videobuffer中拿到d3d纹理句柄并通过此句柄构建一个rhi纹理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Qt5C2lJePND-xmZlz8fH-31" value="createTextureFromHandle&lt;div&gt;从qvideframe的videobuffer中拿到native纹理句柄并通过此句柄构建一个rhi纹理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="504" y="-180" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="HpQHqFJFhctL3u0hSOUU-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;QVideoFrameTextures&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;保存N个rhi纹理&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="224" y="-690" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;QAbstractVideoBuffer&lt;br&gt;&lt;/h1&gt;&lt;p&gt;存有native纹理&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-780" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;QVideoFrame&lt;/h1&gt;&lt;div&gt;存有&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;QAbstractVideoBuffer&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="754" y="-700" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
