@@ -167,6 +167,9 @@
         <mxCell id="HpQHqFJFhctL3u0hSOUU-30" value="QFFmpeg::TextureConverter(rhi)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1112.5" y="-999" width="185" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-41" value="初始化&lt;div&gt;帧传递&lt;/div&gt;&lt;div&gt;纹理转换&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="-1605" width="170" height="75" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
