@@ -229,6 +229,51 @@
         <mxCell id="HpQHqFJFhctL3u0hSOUU-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HpQHqFJFhctL3u0hSOUU-59" target="HpQHqFJFhctL3u0hSOUU-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-62" value="QFFmpegVideoBuffer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-1147" width="190" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-63" value="QFFmpeg::TextureConverter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HpQHqFJFhctL3u0hSOUU-62">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HpQHqFJFhctL3u0hSOUU-62">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-65" value="AVFrameUPtr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HpQHqFJFhctL3u0hSOUU-62">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-66" value="QVideoFrame" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="-1160" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-67" value="QAbstractVideoBuffer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HpQHqFJFhctL3u0hSOUU-66">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HpQHqFJFhctL3u0hSOUU-66">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-69" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HpQHqFJFhctL3u0hSOUU-66">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HpQHqFJFhctL3u0hSOUU-67" target="HpQHqFJFhctL3u0hSOUU-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HpQHqFJFhctL3u0hSOUU-71" target="HpQHqFJFhctL3u0hSOUU-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-71" value="QFFmpeg::StreamDecoder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="-1027" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-72" value="VideoRenderer::render(Frame frame)&lt;div&gt;VideoRenderer::renderInternal&lt;br&gt;&lt;/div&gt;&lt;div&gt;构建一个QFFmpegVideoBuffer&lt;/div&gt;&lt;div&gt;再用QFFmpegVideoBuffer构建QVideoFrame&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="-1027" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-73" value="PlaybackEngineObject" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2041" y="-1290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-74" value="Renderer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2041" y="-1240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HpQHqFJFhctL3u0hSOUU-75" value="VideoRenderer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2041" y="-1190" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
